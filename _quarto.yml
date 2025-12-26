@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "The Diaries of Thomas Russell"
@@ -35,9 +36,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
-  epub:
-    cover-image: C:/Users/goodb/Documents/misc/russell_diary/docx/5 Diary Compiled 2nd version for Tristan_files/image002.png
-
+  
 crossref:
   fig-title: "Image"
   
