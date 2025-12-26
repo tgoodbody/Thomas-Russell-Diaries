@@ -1,0 +1,45 @@
+project:
+  type: book
+
+book:
+  title: "The Diaries of Thomas Russell"
+  author: "Quentin Goodbody (Ladysmith Historical Society)"
+  date: "2025-12-25"
+  cover-image: img/logo.jpg
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - chap_1.qmd
+#    - chap_2.qmd
+#    - chap_3.qmd
+#    - chap_4.qmd
+  appendices:
+    - diary_1.qmd
+#    - diary_2.qmd
+#    - diary_3.qmd
+#    - diary_4.qmd
+
+website: 
+  favicon: img/logo.jpg
+  site-url: https://www.ladysmithhistoricalsociety.ca/
+
+number-depth: 1
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: C:/Users/goodb/Documents/misc/russell_diary/docx/5 Diary Compiled 2nd version for Tristan_files/image002.png
+
+crossref:
+  fig-title: "Image"
+  
+editor: source
+
